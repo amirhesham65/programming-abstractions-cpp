@@ -1,0 +1,2 @@
+# Programming Abstractions in C++ (Stanford CS106B)
+This repository contains my solutions to the coding exercises of Programming Abstractions in C++ book by Eric Roberts and Stanford University (CS106B)
