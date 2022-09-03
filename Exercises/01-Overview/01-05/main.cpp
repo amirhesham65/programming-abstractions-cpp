@@ -22,6 +22,8 @@ int main() {
     int num;
     int max = 0;
 
+    const int SENTINEL = 0;
+
     cout << "This program finds the largest integer in a list." << endl;
     cout << "Enter 0 to signal the end of the list" << endl;
 
@@ -29,7 +31,7 @@ int main() {
     {
         cout << "\t? ";
         cin >> num;
-        if (num == 0) break;
+        if (num == SENTINEL) break;
         max = (num > max) ? num : max;
     }
 
